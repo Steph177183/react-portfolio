@@ -1,73 +1,74 @@
-import project1 from "../assets/projects/project1.png";
+import myportfolio from "../assets/projects/portfolio.png";
+import hotel from "../assets/projects/hotel.png";
+import library from "../assets/projects/library.png";
+import atm_screen from "../assets/projects/atm_screen.png";
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = [
+  `Aspiring full-stack web developer with internship experience in building modern and user-friendly applications. Skilled in the MERN stack (MongoDB, Express.js, React.js, Node.js) as well as Laravel, MySQL, and Inertia.js, with exposure to both front-end and back-end development.`,
+  `Practical exposure to Agile teamwork, collaborative development on GitHub, and full-stack project workflows, with a focus on strengthening technical expertise and delivering value-driven applications.`,
+];
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = [
+  "Aspiring full-stack web developer with a solid foundation built through hands-on internship experience and personal projects. Skilled in creating efficient and user-friendly applications using the MERN stack (MongoDB, Express.js, React, Node.js), as well as Laravel, MySQL, and Inertia.js",
+  "Experienced in Agile teamwork and GitHub collaboration, with exposure to both front-end and back-end development. Continuously learning and improving, with a focus on adapting to challenges and contributing value to every project.",
+];
 
 export const EXPERIENCES = [
   {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
+    year: "March 2025 - April 2025",
+    role: "Computer Programming Specialist",
+    company: "Stronghold Insurance Company Inc.",
+    description: `Developed a training project using Laravel, React (TypeScript), MySQL, and Inertia.js, applying full-cycle software development practices from planning to deployment, with feedback from senior developers to improve design and code efficiency.`,
+    technologies: ["Laravel", "React Typescript", "MySQL", "Inertia.js"],
   },
   {
-    year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
-  },
-  {
-    year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
-  },
-  {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
+    year: "August 2024 - September 2024",
+    role: "Junior Programmer",
+    company: "Mista Solutions Inc.",
+    description: `Gained hands-on experience with the MERN stack and API testing using Postman while collaborating on an internal project. Practiced Agile teamwork, GitHub-based workflows, and improved communication by presenting project updates to both technical and non-technical stakeholders.`,
+    technologies: ["MongoDB", "Express.js", "React", "Node.js"],
   },
 ];
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
-    image: project1,
-    description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
-  },
-  {
-    title: "Task Management App",
-    image: project1,
-    description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
-  },
-  {
     title: "Portfolio Website",
-    image: project1,
+    image: myportfolio,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+      "Built with React.js and Tailwind CSS to showcase skills, experience, and projects in a clean, user-friendly design.",
+    technologies: ["React.js", "Tailwind CSS"],
   },
   {
-    title: "Blogging Platform",
-    image: project1,
+    title: "Library Management System",
+    image: library,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "Created with Laravel, React (TypeScript), MySQL, and Inertia.js, featuring full CRUD operations for managing books and members.",
+    technologies: [
+      "Laravel",
+      "Inertia.js",
+      "Tailwind CSS",
+      "MySQL",
+      "React.ts",
+    ],
+  },
+  {
+    title: "ATM Simulator",
+    image: atm_screen,
+    description:
+      "Developed in Java with MySQL integration to simulate core ATM functions like deposits, withdrawals, and balance inquiry.",
+    technologies: ["Java", "MySQL"],
+  },
+  {
+    title: "Hotel Booking System",
+    image: hotel,
+    description:
+      "A C++ project for managing hotel reservations, customer records, and room availability with a focus on data handling.",
+    technologies: ["C++"],
   },
 ];
 
 export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
-  phoneNo: "+12 4555 666 00 ",
-  email: "me@example.com",
+  address: "P. Pajarillo St., Bry. Rizal (Pob.) Macalelon, Quezon 4309 ",
+  phoneNo: "+63 956 169 1092 ",
+  email: "stephanielucer0177@gmail.com",
 };

@@ -8,7 +8,7 @@ const Projects = () => {
         whileInView={{ opacity: 1, y: 0 }}
         initial={{ opacity: 0, y: -100 }}
         transition={{ duration: 0.5 }}
-        className="my-20 text-center text-4xl"
+        className="my-20 text-center text-6xl bg-gradient-to-r from-white to-gray-600 bg-clip-text text-transparent p-2"
       >
         Projects
       </motion.h1>
@@ -29,11 +29,12 @@ const Projects = () => {
                 className="mb-6 rounded"
               />
             </motion.div>
-            <motion.div 
-            whileInView={{ opacity: 1, x: 0 }}
-            initial={{ opacity: 0, x: 100 }}    
-            transition={{ duration: 1 }}
-            className="w-full max-w-xl lg:w-3/4">
+            <motion.div
+              whileInView={{ opacity: 1, x: 0 }}
+              initial={{ opacity: 0, x: 100 }}
+              transition={{ duration: 1 }}
+              className="w-full max-w-xl lg:w-3/4"
+            >
               <h6 className="mb-2 font-semibold">{project.title}</h6>
               <p className="mb-4 text-neutral-400">{project.description}</p>
               {project.technologies.map((tech, index) => (
