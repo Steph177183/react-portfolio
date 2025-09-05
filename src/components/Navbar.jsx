@@ -1,26 +1,3 @@
-// import { FaGithub } from "react-icons/fa";
-// import { FaInstagram } from "react-icons/fa";
-// import { TfiEmail } from "react-icons/tfi";
-// import { BiPhone } from "react-icons/bi";
-// const Navbar = () => {
-//   return (
-//     <nav className="mb-20 flex items-center justify-between py-6">
-//       <div className="flex flex-shrink-0 items-center">
-//         <h1 className="text-4xl font-bold bg-gradient-to-r from-purple-500 to-blue-800 bg-clip-text text-transparent">
-//           SL
-//         </h1>
-//       </div>
-//       <div className="ml-auto flex items-center gap-5 text-2xl pr-10">
-//         <FaGithub />
-//         <TfiEmail />
-//         <BiPhone />
-//       </div>
-//     </nav>
-//   );
-// };
-
-// export default Navbar;
-
 import { FaGithub } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { TfiEmail } from "react-icons/tfi";
