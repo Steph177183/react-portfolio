@@ -4,7 +4,7 @@ import library from "../assets/projects/library.png";
 import atm_screen from "../assets/projects/atm_screen.png";
 
 export const HERO_CONTENT = [
-  `Aspiring full-stack web developer with internship experience in building modern and user-friendly applications. Skilled in the MERN stack (MongoDB, Express.js, React.js, Node.js) as well as Laravel, MySQL, and Inertia.js, with exposure to both front-end and back-end development.`,
+  `Aspiring web developer with internship experience in building modern and user-friendly applications. Skilled in the MERN stack (MongoDB, Express.js, React.js, Node.js) as well as Laravel, MySQL, and Inertia.js, with exposure to both front-end and back-end development.`,
   `Practical exposure to Agile teamwork, collaborative development on GitHub, and full-stack project workflows, with a focus on strengthening technical expertise and delivering value-driven applications.`,
 ];
 
